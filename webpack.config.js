@@ -89,7 +89,7 @@ function makeConfig(options) {
             ]),
             new ReloadPlugin(isDevServer ? 'localhost' : ''),
             new WebpackNotifierPlugin({
-                title: 'Aries-纬度空间',
+                title: 'angular2-tour-of-heroes',
                 contentImage: path.join(appDir, 'static', 'images', 'logo.png')
             })
         ],

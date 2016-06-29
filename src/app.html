@@ -1,15 +1,13 @@
-<div class="container">
-    <div class="row">
-            <!-- 左侧导航 -->
-            <div class="col-md-2">
-                <ul class="nav nav-list">
-                    <li class="list-group-item"><a [routerLink]="['']">后台首页<i class="glyphicon glyphicon-chevron-right"></i></a></li>
-                    <li class="list-group-item"><a [routerLink]="['admin']">权限管理 <i class="glyphicon glyphicon-chevron-right"></i></a></li>
-                </ul>
-            </div>
-            <!-- 右侧内容 -->
-            <div class="col-md-10">
-                <router-outlet></router-outlet>
-            </div>
-    </div>
-</div>
+<nav class="navbar navbar-light bg-faded">
+    <a class="navbar-brand" [routerLink]="['Dashboard']">{{title}}</a>
+    <ul class="nav navbar-nav">
+        <li class="nav-item active">
+            <a class="nav-link" [routerLink]="['Dashboard']">Top Heroes<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link"  [routerLink]="['Heroes']">My Heroes</a>
+        </li>
+    </ul>
+</nav>
+<hr>
+<router-outlet></router-outlet>
