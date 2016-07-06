@@ -12,3 +12,6 @@
 `npm run start`
 ### 5. 访问项目
 `http://localhost:8080`
+
+## 二、效果图
+![](http://static.xiaomo.info/images/hero.gif)
