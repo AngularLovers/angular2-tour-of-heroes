@@ -1,7 +1,7 @@
 {
   "name": "Taurus",
   "version": "1.0.0",
-  "description": "纬度空间后台",
+  "description": "angular2-tour-of-heroes",
   "main": "index.js",
   "scripts": {
     "clean": "rimraf dist",
@@ -9,12 +9,7 @@
     "start": "./node_modules/.bin/webpack-dev-server --progress --color --profile"
   },
   "author": [
-    "xiaomo <83387856@qq.com>",
-    "alice <706654794@qq.com>",
-    "阿哲  <243869278@qq.com>",
-    "龙猫  <869099296@qq.com>",
-    "吉吉  <395432262@qq.com>",
-    "牛茜  <752120494@qq.com>"
+    "xiaomo <83387856@qq.com>"
   ],
   "license": "MIT",
   "dependencies": {
