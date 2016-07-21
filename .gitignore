@@ -14,3 +14,4 @@ dist
 coverage
 .webpack.json
 typings
+*.js
